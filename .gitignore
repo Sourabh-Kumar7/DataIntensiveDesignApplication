@@ -169,3 +169,30 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS specific files
+Icon?
+._*
+
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+*.sublime-workspace
+*.sublime-project
+
+# Logs and databases
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+# Secrets and credentials
+.env
+*.pem
+*.key
